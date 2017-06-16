@@ -1,6 +1,6 @@
 <?php
 
-//コインチェックのサイトのパブリックＡＰＩを利用して、取引値などを取得して画面に表示させる。
+//コインチェックのサイトのパブリックＡＰＩを利用して、取引値などを取得して数秒ごとに画面に表示させる。
 
 //PEARのHTTP_Requestをインクルードする
 require_once "HTTP/Request.php";
@@ -20,7 +20,7 @@ $http = new HTTP_Request($http_request_url, $http_request_option);
  
 //HTTPヘッダーの設定
 $http->addHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36"); //ユーザーエージェントの設定
-$http->addHeader("Referer", "http://test.com/bitcoin2/coincheck-php-master/bit_tst2.php");   //参照元の設定
+$http->addHeader("Referer", "http://seo-55up.com/bitcoin2/coincheck-php-master/bit_tst2.php");   //参照元の設定
 $http->addHeader("Authorization", ""); //HTTPアクセス認証の設定（不必要であれば削除）
  
 //メソッドの設定
