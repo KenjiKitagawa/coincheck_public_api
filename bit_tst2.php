@@ -1,9 +1,9 @@
 <?php
 
-//コインチェックのサイトのパブリックＡＰＩを利用して、取引値などを取得して数秒ごとに画面に表示させる。
+//コインチェックのサイトのパブリックＡＰＩを利用して、取引値などを取得して数秒ごとに画面に表示させる。test6:30
 
 //PEARのHTTP_Requestをインクルードする
-require_once "HTTP/Request.php";
+require_once "HTTP/Request3.php"; //request3 を　requestに戻すこと
  
 //HTTP_RequestするURL
 $http_request_url = "https://coincheck.com/api/trades";
