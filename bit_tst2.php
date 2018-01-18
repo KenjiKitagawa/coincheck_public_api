@@ -6,7 +6,7 @@
 require_once "HTTP/Request3.php"; //request3 を　requestに戻すこと
  
 //HTTP_RequestするURL
-$http_request_url = "https://coincheck.com/api/trades";
+$http_request_url = "https://coincheck.com/api/trades2"; //trades2に戻すこと
  
 //HTTP_Requestのオプション指定
 $http_request_option = array(
